@@ -1,0 +1,1 @@
+#Crie um programa que leia varios numeros inteiros e no final mostre a media entre todos, qual maior e qual menor. O programa deve perguntar se o usuario quer continuar a digitar numeros
