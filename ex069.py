@@ -18,3 +18,25 @@ while escolha != 'n':
     break
     
 print(f'Foram cadastradas {maiores} pessoas maiores de 18 anos. \nForam cadastrados {homens} homens. \nE foram cadastradas {qtdmulher} mulheres com idade inferior a 20 anos')
+
+#PROGRAMA DO PROFESSOR:
+'''tot18 = totH = totM20 = 0
+while True:
+    idade = int(input('Digite a idade: ')) 
+    sexo = ' '
+    while sexo not in 'FM':
+        sexo = str(input('Qual o sexo? M/F ')).strip().upper()[0]
+    if idade > 18:
+        tot18 = tot18 + 1
+    if sexo == 'M':
+        totH = totH + 1
+    if sexo == 'M' and idade < 20:
+        totM20 = totM20 + 1
+    resp = ' '
+    while resp not in 'SN':
+        resp = str(input('Você quer continuar? S/N '))
+    if resp == 'N':
+            break
+    
+    
+print(f'Foram cadastradas {tot18} pessoas maiores de 18 anos. \nForam cadastrados {totH} homens. \nE foram cadastradas {totM20} mulheres com idade inferior a 20 anos')'''
