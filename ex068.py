@@ -17,3 +17,32 @@ while True:
     break
   else: 
     print(f'Você errou! Essa é a sua {contador} tentativa')
+
+  #SOLUÇÃO MAIS CLEAN E ACERTADA:
+  '''from random import randint
+v = 0
+while True:
+  computador = randint(0,10)
+  jogador = int(input('Digite um número: '))
+  total = jogador + computador
+  tipo = ' '
+  while tipo not in 'IP':
+    tipo = str(input('Você quer par ou ímpar? ')).strip().upper()[0]
+  print(f'Você jogou {jogador} e o computador jogou {computador}. Que deu {total}.')
+  if tipo == 'P':
+    if total % 2 == 0:
+        print('Você venceu!')
+        v = v + 1
+    else:
+        print('Você perdeu!')
+        break
+  elif tipo == 'I':
+    if total % 2 == 1:
+        print('Você venceu!')
+        v = v + 1
+    else:
+        print('Você perdeu!')
+        break
+    print('Vamos jogar novamente...')
+print(f'Game over! Você venceu {v} vezes!')
+ '''

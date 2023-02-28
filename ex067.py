@@ -3,7 +3,7 @@ num = 0
 c = 0
 mais = 0
 while True:
-  num = int(input('Digite um número: '))
+  num = int(input('Digite um número para ver sua tabuada: '))
   c = 0
   if num >=0:
     while c < 10:
