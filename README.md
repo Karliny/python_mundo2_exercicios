@@ -2,7 +2,7 @@
 
 Compilado de exercícios e respostas em linguagem Python, proposto pelo [Curso em Vídeo](https://www.cursoemvideo.com/). Ministrado pelo professor [Gustavo Guanabara](https://www.instagram.com/gustavoguanabara/).
 
-![Certificado](certificado_python_mundo2.jpg)
+![Certificado](certificado_python_m2.jpg)
 
 ### Sumário
 #### Mundo 2 -
