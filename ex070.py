@@ -26,3 +26,18 @@ while resposta == 'S':
 print(f'O total gasto foi de {soma}')
 print(f'Houveram {somamil} produtos que custam mais de 1000 Reais.')
 print(f'{nomeproduto} foi o menor produto e custou {menor}.')
+
+
+'''Resposta professor:
+total = 0
+while True:
+    produto = str(input('Qual o nome do produto? '))
+    preço = float(input('Quanto custa o produto? '))
+    total = total + preço
+    resp = ' '
+    
+    while resp not in 'SN':
+        resp = str(input('Quer continuar? S/N ')).strip().upper()[0]
+    if resp == 'N':
+        break
+    print('Fim do programa!')'''
